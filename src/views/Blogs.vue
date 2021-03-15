@@ -1,5 +1,7 @@
 <template>
-
+  <div>
+    Blgos
+  </div>
 </template>
 
 <script>

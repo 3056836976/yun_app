@@ -1,5 +1,7 @@
 <template>
-
+  <div>
+    BlogsEdit
+  </div>
 </template>
 
 <script>
