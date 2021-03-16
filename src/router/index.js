@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/',
     name: 'Index',
-    redirect: {name:Blogs}
+    redirect: {name:"Blogs"}
   },
   {
     path: '/blogs',

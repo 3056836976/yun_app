@@ -1,12 +1,14 @@
 <template>
   <div>
-    Blgos
+    <Header></Header>
   </div>
 </template>
 
 <script>
+import Header from "@/components/Header";
 export default {
-name: "test"
+name: "test",
+  components: {Header}
 }
 </script>
 
