@@ -4,7 +4,7 @@
       <el-header>
         <img class="logo" src="../assets/logo.png">
       </el-header>
-      <el-main>
+      <el-main >
         <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
           <el-form-item label="用户名" prop="name">
             <el-input v-model="ruleForm.name" placeholder="请输入用户名"></el-input>
@@ -99,9 +99,13 @@ export default {
 
 .el-main {
   /*background-color: #E9EEF3;*/
+  width: 500px;
+  height: 500px;
   color: #333;
   text-align: center;
   line-height: 0px;
+  margin: 0 auto;
+  border: 2px chocolate;
 }
 
 .el-option {
@@ -129,9 +133,8 @@ body > .el-container {
 
 .demo-ruleForm {
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 150px;
   max-width: 500px;
-
 }
 
 .check_code{
