@@ -13,8 +13,8 @@
            <mavon-editor v-model="ruleForm.content">  </mavon-editor>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" @click="submitForm('ruleForm')">立即创建</el-button>
-          <el-button @click="resetForm('ruleForm')">重置</el-button>
+          <el-button type="primary" @click="submitForm('ruleForm')">立即发表</el-button>
+          <el-button @click="resetForm('ruleForm')">清空内容</el-button>
         </el-form-item>
       </el-form>
     </div>
@@ -44,18 +44,6 @@ export default {
         ],
         content: [
           {required: true,message: '请输入文章内容', trigger: 'blur'}
-        ],
-        date2: [
-          {type: 'date', required: true, message: '请选择时间', trigger: 'change'}
-        ],
-        type: [
-          {type: 'array', required: true, message: '请至少选择一个活动性质', trigger: 'change'}
-        ],
-        resource: [
-          {required: true, message: '请选择活动资源', trigger: 'change'}
-        ],
-        desc: [
-          {required: true, message: '请填写活动形式', trigger: 'blur'}
         ]
       }
     };
