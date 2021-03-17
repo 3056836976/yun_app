@@ -3,7 +3,9 @@
     <h3>欢迎使用本校园论坛系统</h3>
     <div class="block">
       <el-avatar :size="50" :src="user.avatar"></el-avatar>
-      <div>{{ user.username }}</div>
+    </div>
+    <div>
+      <el-link href="/login" :underline="false">{{ user.username }}</el-link>
     </div>
     <div class="maction">
       <span>
@@ -34,6 +36,9 @@ export default {
   },
   methods:{
     logout(){
+
+    },
+    login(){
 
     }
   }
